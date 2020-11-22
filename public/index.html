@@ -7,13 +7,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="service1"></div>
-  <div id="service2"></div>
-  <div id="service3"></div>
-  <div id="service4"></div>
+  <div id="TrackPinch"></div>
+  <div id="SizePicker"></div>
+  <div id="Suggestions"></div>
+  <div id="Reviews"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   <script src="bundles/service1.js"></script>
   <script src="bundles/service2.js"></script>
   <script src="bundles/service3.js"></script>
   <script src="bundles/service4.js"></script>
+  <script>
+    ReactDOM.render(
+      React.createElementById(TrackPinch),
+      document.getElementById('TrackPinch')
+    );
+    ReactDOM.render(
+      React.createElementById(SizePicker),
+      document.getElementById('SizePicker')
+    );
+    ReactDOM.render(
+      React.createElementById(Suggestions),
+      document.getElementById('Suggestions')
+    );
+    ReactDOM.render(
+      React.createElementById(Reviews),
+      document.getElementById('Reviews')
+    );
+  </script>
 </body>
 </html>
