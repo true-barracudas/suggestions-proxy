@@ -1,0 +1,1 @@
+ssh -i '/Users/Amelia/Documents/Bootcamp/fec/suggestions-proxy/suggestions.pem' ubuntu@ec2-54-183-250-113.us-west-1.compute.amazonaws.com
